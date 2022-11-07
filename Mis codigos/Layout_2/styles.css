@@ -1,0 +1,141 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Fredoka One', cursive;
+    font-weight: 50;
+}
+html button{
+    font-family: 'Fredoka One', cursive;
+    font-weight: 50;
+}
+img{
+    width: 100%;
+}
+header{
+    height: 8vh;
+    width: 98.7vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1%;
+    background-color: rebeccapurple;
+    border-bottom: #25282c 2px solid;
+}
+picture{
+    width: 5vw;
+}
+nav{
+    width: 15vw;
+}
+.nav-list{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    display: inline-block;
+    list-style: none;
+}
+.nav-list__item{
+    font-size: 1.3rem;
+    background-color: mediumpurple;
+    border: none;
+    height: 25px;
+    width: 120%;
+    border-radius: 10px;
+}
+.nav-list__item:hover{
+    background-color: rgb(104, 79, 155);
+}
+.nav-list__item:active{
+    background-color: rgb(77, 58, 114);
+}
+main{
+    width: 98.7vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row-reverse;
+    align-items: stretch;
+}
+#main-section{
+    background-color:  rgb(83, 74, 216);
+    width: 80vw;
+}
+#section-home{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
+#section-home button{
+    width: 40%;
+    height: 50%;
+    margin: 2%;
+    padding: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #25282c;
+    border-radius: 10px;
+    border: none;
+    color: gray;
+    font-size: 1.6rem;
+}
+#section-home button:hover{
+    background-color: #1a1c1f;
+}
+#section-home button:active{
+    background-color: #09090a;
+}
+#section-home button img{
+    height: 200px;
+    margin: 10px;
+}
+#sidebar{
+    width: 20vw;
+    background-color: hotpink;
+    border-right: #25282c 2px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.sidebar-item{
+    height: 22%;
+    width: 95%;
+    background-color: rgb(184, 62, 123);
+    border-radius: 10px;
+    font-size: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#element-one:hover{
+    background-color: rgb(116, 37, 76);
+}
+#element-two:hover{
+    background-color: rgb(116, 37, 76);
+}
+#element-three:hover{
+    background-color: rgb(116, 37, 76);
+}
+#element-four:hover{
+    background-color: rgb(116, 37, 76);
+}
+#element-one:active{
+    background-color: rgb(65, 21, 43);
+}
+#element-two:active{
+    background-color: rgb(65, 21, 43);
+}
+#element-three:active{
+    background-color: rgb(65, 21, 43);
+}
+#element-four:active{
+    background-color: rgb(65, 21, 43);
+}

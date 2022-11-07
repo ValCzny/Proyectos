@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout 2</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="champs.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <picture>
+            <img id="logo" src="./assets/butterfly.png" alt="">
+        </picture>
+        <nav class="nav">
+            <ul class="nav-list">
+                <li>
+                   <button id="buttom-home" class="nav-list__item">Home</button> 
+                </li>
+                <li>
+                    <button id="buttom-champs" class="nav-list__item">Campeones</button>
+                </li>
+                <li>
+                    <button id="buttom-regiones" class="nav-list__item">Regiones</button>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="main-section">
+            <article id="section-home">
+                <button id="buttom-champs-2">
+                    <h4>Campeones</h4>
+                    <img id="img-champ" src="./assets/campeones.jpg" alt="">
+                </button>
+                <button id="buttom-regiones-2">
+                    <h4>Regiones</h4>
+                    <img id="img-mapa" src="./assets/mapa.png" alt="">
+                </button>
+            </article>
+            <article id="section-champs">
+                <button class="sec-champ-butt" id="asesinos">Asesinos</button>
+                <button class="sec-champ-butt" id="luchadores">Luchadores</button>
+                <button class="sec-champ-butt" id="magos">Magos</button>
+                <button class="sec-champ-butt" id="tiradores">Tiradores</button>
+                <button class="sec-champ-butt" id="soportes">Soportes</button>
+                <button class="sec-champ-butt" id="tanques">Tanques</button>
+            </article>
+            <article id="section-asesinos" class="target-champs">
+                <div>
+                    <h1>Asesinos</h1>
+                </div>
+                <div id="akali" class="champ">
+                    <picture>
+                        <img src="./assets/champs/akali2.jpg" alt="">
+                    </picture>
+                    <h3>Akali</h3>
+                    <p>Jonia</p>
+                </div>
+                <div id="gwen" class="champ">
+                    <picture>
+                        <img src="./assets/champs/gwen1.jpg" alt="">
+                    </picture>
+                    <h3>Gwen</h3>
+                    <p>Isla de las Sombras</p>
+                </div>
+                <div id="evelynn" class="champ">
+                    <picture>
+                        <img src="./assets/champs/evelynn.jpg" alt="">
+                    </picture>
+                    <h3>Evelynn</h3>
+                    <p>Runaterra</p>
+                </div>
+                <div id="katarina" class="champ">
+                    <picture>
+                        <img src="./assets/champs/kata2.jpg" alt="">
+                    </picture>
+                    <h3>Katarina</h3>
+                    <p>Noxus</p>
+                </div>
+                <div id="nidalee" class="champ">
+                    <picture>
+                        <img src="./assets/champs/nidalee.jpg" alt="">
+                    </picture>
+                    <h3>Nidalee</h3>
+                    <p>Ixtal</p>
+                </div>
+                <div id="qiyana" class="champ">
+                    <picture>
+                        <img src="./assets/champs/qiyana.jpg" alt="">
+                    </picture>
+                    <h3>Qiyana</h3>
+                    <p>Ixtal</p>
+                </div>
+            </article>
+            <article id="section-magos" class="target-champs">
+                <div>
+                    <h1>Magos</h1>
+                </div>
+                <div id="lissandra" class="champ">
+                    <picture>
+                        <img src="./assets/champs/liss3.jpg" alt="">
+                    </picture>
+                    <h3>Lissandra</h3>
+                    <p>Fréljord</p>
+                </div>
+                <div id="annie" class="champ">
+                    <picture>
+                        <img src="./assets/champs/annie2.jpg" alt="">
+                    </picture>
+                    <h3>Annie</h3>
+                    <p>Noxus</p>
+                </div>
+                <div id="syndra" class="champ">
+                    <picture>
+                        <img src="./assets/champs/syndra.jpg" alt="">
+                    </picture>
+                    <h3>Syndra</h3>
+                    <p>Jonia</p>
+                </div>
+                <div id="elise" class="champ">
+                    <picture>
+                        <img src="./assets/champs/elise2.jpg" alt="">
+                    </picture>
+                    <h3>Elise</h3>
+                    <p>Isla de las Sombras</p>
+                </div>
+                <div id="ahri" class="champ">
+                    <picture>
+                        <img src="./assets/champs/ahri.jpg" alt="">
+                    </picture>
+                    <h3>Ahri</h3>
+                    <p>Jonia</p>
+                </div>
+                <div id="cassiopeia" class="champ">
+                    <picture>
+                        <img src="./assets/champs/cassiopeia.jpg" alt="">
+                    </picture>
+                    <h3>Cassiopeia</h3>
+                    <p>Noxus</p>
+                </div>
+            </article>
+            <article id="section-luchadores" class="target-champs">
+                <div>
+                    <h1>Luchadores</h1>
+                </div>
+                <div id="camille" class="champ">
+                    <picture>
+                        <img src="./assets/champs/camille3.jpg" alt="">
+                    </picture>
+                    <h3>Camille</h3>
+                    <p>Piltóver</p>
+                </div>
+                <div id="kayle" class="champ">
+                    <picture>
+                        <img src="./assets/champs/kayle1.jpg" alt="">
+                    </picture>
+                    <h3>Kayle</h3>
+                    <p>Demacia</p>
+                </div>
+                <div id="vi" class="champ">
+                    <picture>
+                        <img src="./assets/champs/vi 2.jpg" alt="">
+                    </picture>
+                    <h3>Vi</h3>
+                    <p>Piltóver</p>
+                </div>
+                <div id="fiora" class="champ">
+                    <picture>
+                        <img src="./assets/champs/fiora.jpg" alt="">
+                    </picture>
+                    <h3>Fiora</h3>
+                    <p>Demacia</p>
+                </div>
+                <div id="diana" class="champ">
+                    <picture>
+                        <img src="./assets/champs/diana.jpg" alt="">
+                    </picture>
+                    <h3>Diana</h3>
+                    <p>Targón</p>
+                </div>
+                <div id="irelia" class="champ">
+                    <picture>
+                        <img src="./assets/champs/irelia.jpg" alt="">
+                    </picture>
+                    <h3>Irelia</h3>
+                    <p>Jonia</p>
+                </div>
+            </article>
+            <article id="section-tiradores" class="target-champs">
+                <div>
+                    <h1>Tiradores</h1>
+                </div>
+                <div id="caitlyn" class="champ">
+                    <picture>
+                        <img src="./assets/champs/cait2.jpg" alt="">
+                    </picture>
+                    <h3>Caitlyn</h3>
+                    <p>Piltóver</p>
+                </div>
+                <div id="xayah" class="champ">
+                    <picture>
+                        <img src="./assets/champs/xayah3.jpg" alt="">
+                    </picture>
+                    <h3>Xayah</h3>
+                    <p>Jonia</p>
+                </div>
+                <div id="kaisa" class="champ">
+                    <picture>
+                        <img src="./assets/champs/kaisa4.jpg" alt="">
+                    </picture>
+                    <h3>Kai'sa</h3>
+                    <p>El Vacío</p>
+                </div>
+                <div id="jinx" class="champ">
+                    <picture>
+                        <img src="./assets/champs/jinx1.jpg" alt="">
+                    </picture>
+                    <h3>Jinx</h3>
+                    <p>Zaun</p> 
+                </div>
+                <div id="miss" class="champ">
+                    <picture>
+                        <img src="./assets/champs/miss2.jpg" alt="">
+                    </picture>
+                    <h3>Miss Fortune</h3>
+                    <p>Aguasturbias</p>
+                </div>
+                <div id="samira" class="champ">
+                    <picture>
+                        <img src="./assets/champs/samira.jpg" alt="">
+                    </picture>
+                    <h3>Samira</h3>
+                    <p>Noxus</p>
+                </div>
+            </article>
+            <article id="section-soportes" class="target-champs">
+                <div>
+                    <h1>Soportes</h1>
+                </div>
+                <div id="ashe" class="champ">
+                    <picture>
+                        <img src="./assets/champs/ashe3.jpg" alt="">
+                    </picture>
+                    <h3>Ashe</h3>
+                    <p>Fréljord</p>
+                </div>
+                <div id="karma" class="champ">
+                    <picture>
+                        <img src="./assets/champs/karma.jpg" alt="">
+                    </picture>
+                    <h3>Karma</h3>
+                    <p>Jonia</p>
+                </div>
+                <div id="morgana" class="champ">
+                    <picture>
+                        <img src="./assets/champs/morgana1.jpg" alt="">
+                    </picture>
+                    <h3>Morgana</h3>
+                    <p>Demacia</p>
+                </div>
+                <div id="lux" class="champ">
+                    <picture>
+                        <img src="./assets/champs/lux1.jpg" alt="">
+                    </picture>
+                    <h3>Lux</h3>
+                    <p>Demacia</p>
+                </div>
+                <div id="nami" class="champ">
+                    <picture>
+                        <img src="./assets/champs/nami.jpg" alt="">
+                    </picture>
+                    <h3>Nami</h3>
+                    <p>Runaterra</p>
+                </div>
+                <div id="orianna" class="champ">
+                    <picture>
+                        <img src="./assets/champs/orianna.jpg" alt="">
+                    </picture>
+                    <h3>Orianna</h3>
+                    <p>Piltóver</p>
+                </div>
+            </article>
+            <article id="section-tanques" class="target-champs">
+                <div>
+                    <h1>Tanques</h1>
+                </div>
+                <div id="sejuani" class="champ">
+                    <picture>
+                        <img src="./assets/champs/sejuani.jpg" alt="">
+                    </picture>
+                    <h3>Sejuani</h3>
+                    <p>Fréljord</p>
+                </div>
+                <div id="poppy" class="champ">
+                    <picture>
+                        <img src="./assets/champs/poppy.jpg" alt="">
+                    </picture>
+                    <h3>Poppy</h3>
+                    <p>Demacia</p>
+                </div>
+                <div id="leona" class="champ">
+                    <picture>
+                        <img src="./assets/champs/leona.jpg" alt="">
+                    </picture>
+                    <h3>Leona</h3>
+                    <p>Targón</p>
+                </div>
+                <div id="illaoi" class="champ">
+                    <picture>
+                        <img src="./assets/champs/illaoi.jpg" alt="">
+                    </picture>
+                    <h3>Illaoi</h3>
+                    <p>Aguasturbias</p>
+                </div>
+                <div id="rell" class="champ">
+                    <picture>
+                        <img src="./assets/champs/rell.jpg" alt="">
+                    </picture>
+                    <h3>Rell</h3>
+                    <p>Noxus</p>
+                </div>
+                <div id="shyvana" class="champ">
+                    <picture>
+                        <img src="./assets/champs/shyvana.jpg" alt="">
+                    </picture>
+                    <h3>Shyvana</h3>
+                    <p>Demacia</p>
+                </div>
+            </article>
+            <article id="section-regiones">
+                <h2>regiones</h2>
+            </article>
+            <article id="section-arcane">
+                <h1>arcane</h1>
+            </article>
+            <article id="section-sg">
+                <h1>Star Guardians</h1>
+            </article>
+            <article id="section-kda">
+                <h1>K/DA</h1>
+            </article>
+            <article id="section-coven">
+                <h1>Coven</h1>
+            </article>
+        </section>
+        <section id="sidebar">
+            <button id="element-one" class="sidebar-item">Arcane</button>
+            <button id="element-two" class="sidebar-item">Star Guardians</button>
+            <button id="element-three" class="sidebar-item">K/DA</button>
+            <button id="element-four" class="sidebar-item">Coven</button>
+        </section>
+    </main>
+    <script src="script.js" charset="utf-8"></script>
+</body>
+</html>
