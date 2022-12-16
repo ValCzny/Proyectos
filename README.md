@@ -1,2 +1,2 @@
 # Proyectos
-Proyectos privados
+Proyectos que he desarrollado 
